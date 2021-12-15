@@ -10,14 +10,17 @@ Bitová rychlost řečového kodéru G.711 v kb/s je *
 Který protokol neslouží k signalizaci *
 RTP
 
-Odpovědi s číslem 4XX * Znamenají chybu na straně klienta 
+Odpovědi s číslem 4XX * 
+Znamenají chybu na straně klienta 
 
-Odpovědi SIP s číslem 2XX * Znamenají kladné potvrzení 
+Odpovědi SIP s číslem 2XX * 
+Znamenají kladné potvrzení 
 
 Sender Request je vysílán protokolem *
 RTCP
 
-Mezi základní parametry QoS nepatří * Kvalita hovorové signalizace u VoIP 
+Mezi základní parametry QoS nepatří * 
+Kvalita hovorové signalizace u VoIP 
 
 Která metoda SIP zpráv slouží k přeposlání hovoru k jinému účastnkovi *
 REFER
