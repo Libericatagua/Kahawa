@@ -1,0 +1,191 @@
+Socket je *
+IP adresa + port 
+
+Payload type v RTP *
+Určuje, jaké kódování je pro data, přenášená v paketu, použito 
+
+Bitová rychlost řečového kodéru G.711 v kb/s je *
+64
+
+Který protokol neslouží k signalizaci *
+RTP
+
+Odpovědi s číslem 4XX * Znamenají chybu na straně klienta 
+
+Odpovědi SIP s číslem 2XX * Znamenají kladné potvrzení 
+
+Sender Request je vysílán protokolem *
+RTCP
+
+Mezi základní parametry QoS nepatří * Kvalita hovorové signalizace u VoIP 
+
+Která metoda SIP zpráv slouží k přeposlání hovoru k jinému účastnkovi *
+REFER
+
+U H.323 se jednotlivé zařízení domlouvají o typu použitého kodeku pro komunikaci *
+Po spojení 
+
+Počet oktetů v záhlaví RTP (bez CSRC indentifikátorů) je *
+12
+
+SSRC u RTP obsahuje *
+Zdroj vysílání multimediálního toku 
+
+Protokol H.245 u H.323 *
+Signalizuje schopnosti jednotlivých terminálů 
+
+RTSP neobsahuje zprávu (metodu) *
+INVITE
+
+Informace SDP protokolu mohou být přenášeny v SIP žádosti *
+INVITE
+
+RTCP *
+Sender Report SR a Receiver Report RR 
+
+Sender Report je vysílán protokolem *
+RTCP
+
+Standartní hlavička protokolu RTP obsahuje *
+12 oktetů 
+
+Na kterou adresu se dovolám? *
+sip:152@147.223.69.54
+
+Broadcastová adresa *
+Data jsou vysílána všemi směry 
+
+Real-time Transport Protocol (RTP) * Slouží k přenosu multimediálních dat 
+
+
+V jakém formátu je soubor MPD? * XML (Extensible Markup Language) 
+
+Standartní hlavička protokolu RTP obsahuje * Sekvenční číslo paketu a CSRC identidikátor 
+
+SSRC v RTPC hlavičce * Identifikuje zdroj vysílání 
+
+K řídící signalizaci u H.323 neslouží *
+H.263
+
+Který z následujících doporučení slouží ke kompresi videa? *
+H. 264
+Hlavička IP datagramu nenese informaci o *
+Zrojovém a cílovém portu
+
+Jaké zprávy musí být vyměněny pro úspěšné navázání hovoru v SIP? *
+INVITE, 2000K, ACK
+
+SDP nenajdu v *
+SIP odpovědi 180 Ringing 
+Ve které metodě SIP zpráv se posílají informace o schopnostech VoIP telefonů *
+INVITE
+
+Kolik SDP se standartně vymění mezi dvěma uživateli při SIP volání *
+1
+
+Pole CSRC v RTP * Identifikuje přispívací zdroj 
+
+Jakou odpověď posílá klient v případě, že hovor zamítnete *
+BYE
+
+Děléka IP hlavičky musí být násobkem *
+32. bitů 
+
+H.323 - při komunikaci terminálů s MCU jednotkou řídí komunikaci *
+Vždy MCU jednotka 
+
+
+V SIP zprávě se nepřenáší *
+Multimediální data 
+
+H.323: Ověření schopnosti jednotlivých terminálů Terminal Capability Set proběhne *
+Ihned po spojení dvou terminálů 
+
+TTL (time to live) v IP datagramu * Stanovuje maximální počet přeskoků v síti 
+
+Co znamená zkratka DISA * Direct Inward System Access 
+
+Jaký protokol se používá k přenosu informací o UA v SIPu? *
+SDP
+
+Která z metod je určena k transferu hovorů? *
+REFER
+
+Metoda ACK potvrzuje *
+Metodu INVITE 
+
+K čemu slouží metoda (zpráva) REGISTER v SIP * Využívá se k registraci klientů na registrar server 
+
+Vyberte zpravné tvrzení *
+Manifest MPEG-DASH je jeden soubor obsahující všechny informace o dostupných profilech 
+
+Při vysílání na multicastovou adresu *
+Data budou přijímat pouze stanice, které jsou přihlášeno do multicastové skupiny 
+
+Pro zrušení dialogu SIP slouží zpráva (ještě před sestavením spojení) *
+CANCEL
+
+Kolik zpráv SIP proběhne běhěm registrace mezi telefonem a proxy serverem *
+3 zprávy 
+
+MCU u H.323 je * Multipoint Control Unit 
+
+Odpovědi SIP s číslem 5XX * Znamenají chybu na straně serveru 
+
+Hlavička UDP neobsahuje * Zdrojovou a cílovou adresu 
+
+SIP *
+Je signalizační protokol 
+
+Při sestavování SIP relace *
+Je jako první posílaná metoda INVITE 
+
+
+Datový tok RTP obvykle spotřebuje * 95% z celkového toku pro multimediální data 
+
+Pro zajištění rekomprese dat vysílaných od více účastníků do jedné koference vytvořené pomocí H323 slouží
+*
+MCU
+
+Jaký port je standartně využíván zprávami SIP *
+5060
+
+Rozdíl časl D(I) dvou po sobě jdoucích poruch paketů přijatých přijímačem a odeslaných vysílačem , kde S(I)
+je časoév razítko RPT paketu a R(I) je čas příchodu RTP paketu můžeme vypočítat vztahem *
+Ani jedna zprávná odpověď 
+
+Platná multicastová adresa je *
+239.255.1.1
+
+Odpovědí SIP s číslem 3XX * Znamenají přesměrování 
+
+Jakou informaci manifest (MPD) neobsahuje *
+Zabezpečení 
+
+Popis multimediálních dat m= u SDP má tvar *
+m=medium port protokol formát 
+
+
+
+SDP se neposílá s metodou *
+TRYING
+
+Odpovědi SIP s číslem 2XX * Znamenají kladné potvrzení 
+
+Real Time Streaming Protocol (RTSP) *
+Slouží k ovládání multimediálního toku (např. pro video na vyžádání) 
+
+Zpráva H.225-RAS Gatekeeper Request *
+Slouží k nalezení gatekeeperu 
+
+O směrování se v TCP/IP stará vrsta *
+Síťová 
+
+SIP protokol je v modelu TCP/IP definován na vrstvě *
+Aplikační
+
+Standartní port pro vysílání RTSP zpráv je *
+554
+
+Mějme dvoubodovou audiokonferenci del standardu H.323. Kloik logických kanálů je během sestavení spojení otevřeno? *
+1
